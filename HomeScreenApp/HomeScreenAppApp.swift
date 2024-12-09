@@ -11,7 +11,7 @@ import SwiftUI
 struct HomeScreenAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()  // Launch the app with the HomeView.
         }
     }
 }
